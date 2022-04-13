@@ -17,6 +17,19 @@ In this way, the two projects can be viewed
 __items-api__ runs at http://localhost:5000  
 __items-web__ runs at http://localhost:3000
 
+#Non-functional requirements
+
+Non-functional requirements
+(Architectural decisions)
+### Usability
+This quality attribute is solved by the designs provided in the requirement.
+### SEO
+To achieve this quality attribute you must include in the rendering of the page the main meta tags that help with the positioning of the site, this can be achieved using the SSR Server Side Rendering of React.
+### Performance
+To achieve this quality attribute, cache mechanisms must be implemented using Redis or MemCache in AWS and optimize the use of resources in general.
+### Scalability
+This quality attribute is closely linked to the deployment, the solution would be to deploy the static content in a S3 bucket with AWS Cloud Front, and the items-web and items-api component in an AWS EKS cluster using Horizontal Pod Autoscaler.
+
 
 # Packages of the project
 
