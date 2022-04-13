@@ -14,10 +14,11 @@ in the root of the directory where the project was downloaded:
 3. `npx lerna bootstrap --hoist`
 4. `npm run start`
 
+## Main packages
+The project has two defined components, Front-end and Back-end, which correspond to the following, respectively
 
-In this way, the two projects can be viewed 
-__items-api__ runs at http://localhost:5000  
-__items-web__ runs at http://localhost:3000
+  * __items-api__ runs at http://localhost:5000  
+  * __items-web__ runs at http://localhost:3000
 
 # Non-functional requirements
 ## (Architectural decisions - tradeoff)
