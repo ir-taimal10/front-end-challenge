@@ -49,7 +49,7 @@ Alister Scott suggests that a testing strategy should be based mostly on automat
 ![alt text](https://github.com/ir-taimal10/front-end-challenge/blob/master/packages/items-doc/images/unit_test.PNG?raw=true)
 
 
-To run the unit tests run:
+To run the unit tests:
 
 1. `cd packages/items-web/`
 2. `npm run test`
@@ -61,10 +61,35 @@ BDT tests allow testing of complete components using a DSL called Gherkin
 
 the definition of each of the steps was done using cucumber.js  [Cucumber](https://github.com/cucumber/cucumber-js "Cucumber's Homepage") 
 
+To run the bdt tests:
+
+1. `cd packages/items-test-bdt/`
+2. `npm run test:bdt`
+
 
 ## Random test
-https://github.com/marmelab/gremlins.js
-https://marmelab.com/gremlins.js/
+Random tests allow to generate random events on the application under test trying to break the system.
+
+![alt text](https://github.com/ir-taimal10/front-end-challenge/blob/master/packages/items-doc/images/gremlinsjs.PNG?raw=true)
+
+To run the random tests:
+
+1. `cd packages/items-test-random/`
+2. `npm run test:random`
+
+[https://github.com/marmelab/gremlins.js](https://github.com/marmelab/gremlins.js "Gremlins")
+[https://marmelab.com/gremlins.js/](https://marmelab.com/gremlins.js/ "Gremlins marmelab")
 
 ## Load test
-https://github.com/grafana/k6
+Load tests are primarily concerned with evaluating the current performance of your system in terms of concurrent users or requests per second.
+
+![alt text](https://github.com/ir-taimal10/front-end-challenge/blob/master/packages/items-doc/images/k6.PNG?raw=true)
+
+
+To run the load tests:
+
+1. `cd packages/items-test-load/`
+2. `npm run test:load`
+
+[https://github.com/grafana/k6](https://github.com/grafana/k6 "Grafana k6")
+
