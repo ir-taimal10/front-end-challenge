@@ -1,22 +1,22 @@
 import {IItem} from "../../shared/models/iitem-detail";
 
 export enum ActionType {
-    GET_POST_DETAIL_PENDING = 'GET_POST_DETAIL_PENDING',
-    GET_POST_DETAIL_SUCCESS = 'GET_POST_DETAIL_SUCCESS',
-    GET_POST_DETAIL_FAIL = 'GET_POST_DETAIL_FAIL'
+    QUERY_DETAIL_PENDING = 'QUERY_DETAIL_PENDING',
+    QUERY_DETAIL_SUCCESS = 'QUERY_DETAIL_SUCCESS',
+    QUERY_DETAIL_FAIL = 'QUERY_DETAIL_FAIL'
 }
 
 interface actionPending {
-    type: ActionType.GET_POST_DETAIL_PENDING;
+    type: ActionType.QUERY_DETAIL_PENDING;
 }
 
 interface actionSuccess {
-    type: ActionType.GET_POST_DETAIL_SUCCESS;
+    type: ActionType.QUERY_DETAIL_SUCCESS;
     payload: IItem;
 }
 
 interface actionFail {
-    type: ActionType.GET_POST_DETAIL_FAIL;
+    type: ActionType.QUERY_DETAIL_FAIL;
     payload: string;
 }
 

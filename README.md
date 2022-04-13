@@ -18,7 +18,8 @@ __items-api__ runs at http://localhost:5000
 __items-web__ runs at http://localhost:3000
 
 
-### items-api
+## items-api
+This application allows to expose 2 endpoints to obtain the items data, the items-api was built using hexagonal architecture to allow to isolate the libraries from the business logic.
 ![alt text](https://github.com/ir-taimal10/front-end-challenge/blob/master/packages/items-doc/images/hexagonal_arch.PNG?raw=true)
 
 
@@ -27,16 +28,15 @@ Run with the next lines:
 1. `cd packages/items-api`
 2. `npm run start`
 
-### items-web
+## items-web
+The items-web package was built using React and Redux, Redux makes it possible to manage the states of the application in a simple way.
 
-This project is built with React and Redux, and allows to query ML products. Ex:
+
+The project allows to query ML products using urls like the next:
+![alt text](https://github.com/ir-taimal10/front-end-challenge/blob/master/packages/items-doc/images/redux.PNG?raw=true)
  * http://localhost:3000/items/MLA1116890684
  * http://localhost:3000/items/MLA1100825910
 
-### items-web-ssr
-
-3. `npm run build:server`
-4. `npm start`
 
 
 ### Unit tests

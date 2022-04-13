@@ -15,19 +15,19 @@ const initialState = {
 
 const detailReducer = (state: State = initialState, action: Action): State => {
     switch (action.type) {
-        case ActionType.GET_POST_DETAIL_PENDING:
+        case ActionType.QUERY_DETAIL_PENDING:
             return {
                 loading: true,
                 detail: null,
                 error: null
             }
-        case ActionType.GET_POST_DETAIL_SUCCESS:
+        case ActionType.QUERY_DETAIL_SUCCESS:
             return {
                 loading: false,
                 detail: action.payload,
                 error: null
             }
-        case ActionType.GET_POST_DETAIL_FAIL:
+        case ActionType.QUERY_DETAIL_FAIL:
             return {
                 loading: false,
                 error: action.payload,
