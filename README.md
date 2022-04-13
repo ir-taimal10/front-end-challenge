@@ -19,6 +19,7 @@ __items-web__ runs at http://localhost:3000
 
 # Non-functional requirements
 ## (Architectural decisions)
+
 ### Usability
 This quality attribute is solved by the designs provided in the requirement.
 ### SEO
