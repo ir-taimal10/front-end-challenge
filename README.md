@@ -17,10 +17,8 @@ In this way, the two projects can be viewed
 __items-api__ runs at http://localhost:5000  
 __items-web__ runs at http://localhost:3000
 
-#Non-functional requirements
-
-Non-functional requirements
-(Architectural decisions)
+# Non-functional requirements
+## (Architectural decisions)
 ### Usability
 This quality attribute is solved by the designs provided in the requirement.
 ### SEO
