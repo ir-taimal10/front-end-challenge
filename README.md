@@ -19,6 +19,9 @@ __items-web__ runs at http://localhost:3000
 
 
 ### items-api
+![alt text](https://github.com/ir-taimal10/front-end-challenge/blob/master/packages/items-doc/images/hexagonal_arch.PNG?raw=true)
+
+
 This project is build with Node Js and Express, and makes a REST API available. Ex: http://localhost:5000/rest/items?q=piano
 Run with the next lines:
 1. `cd packages/items-api`
