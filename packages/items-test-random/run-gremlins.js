@@ -74,16 +74,16 @@ module.exports.runGremlins = async (page) => {
 
         const customLogger = {
             log: function (msg) {
-                console.log("Oscar: ",msg);
+                console.log("result: ",msg);
             },
             info: function (msg) {
-                console.log("Oscar: ",msg);
+                console.log("result: ",msg);
             },
             warn: function (msg) {
-                console.log("Oscar: ",msg);
+                console.log("result: ",msg);
             },
             error: function (msg) {
-                console.log("Oscar: ",msg);
+                console.log("result: ",msg);
             },
         };
 
