@@ -2,7 +2,9 @@
 
 ## How to install the project
 
-This is a mono-repository built with Lerna https://lerna.js.org/
+This is a mono-repository built with Lerna 
+
+[https://lerna.js.org/](https://lerna.js.org/ "Lerna JS")
 
 For its execution, the following commands must be run
 in the root of the directory where the project was downloaded:
@@ -18,7 +20,7 @@ __items-api__ runs at http://localhost:5000
 __items-web__ runs at http://localhost:3000
 
 # Non-functional requirements
-## (Architectural decisions)
+## (Architectural decisions - tradeoff)
 
 ### Usability
 This quality attribute is solved by the designs provided in the requirement.
@@ -96,6 +98,9 @@ To run the random tests:
 Load tests are primarily concerned with evaluating the current performance of your system in terms of concurrent users or requests per second.
 
 ![alt text](https://github.com/ir-taimal10/front-end-challenge/blob/master/packages/items-doc/images/k6.PNG?raw=true)
+
+To install k6 on Windows use the latest official .msi package:
+[https://dl.k6.io/msi/k6-latest-amd64.msi](https://dl.k6.io/msi/k6-latest-amd64.msi "k6-latest-amd64.msi")
 
 
 To run the load tests:
