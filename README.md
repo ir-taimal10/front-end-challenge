@@ -1,6 +1,6 @@
 # Code Challenge
 
-### How to install the project
+## How to install the project
 
 This is a mono-repository built with Lerna https://lerna.js.org/
 
@@ -17,6 +17,8 @@ In this way, the two projects can be viewed
 __items-api__ runs at http://localhost:5000  
 __items-web__ runs at http://localhost:3000
 
+
+# Packages of the project
 
 ## items-api
 This application allows to expose 2 endpoints to obtain the items data, the items-api was built using hexagonal architecture to allow to isolate the libraries from the business logic.
@@ -40,13 +42,25 @@ The project allows to query ML products using urls like the next:
 
 
 
-### Unit tests
+## Unit tests
+unit tests allow to guide the development of each component and to test the different behaviors in each method.
+Alister Scott suggests that a testing strategy should be based mostly on automated testing, with more effort on unit testing.
+
+![alt text](https://github.com/ir-taimal10/front-end-challenge/blob/master/packages/items-doc/images/unit_test.PNG?raw=true)
+
 
 To run the unit tests run:
 
 1. `cd packages/items-web/`
 2. `npm run test`
 
-####
+## Behavior test
+https://github.com/cucumber/cucumber-js
 
+
+## Random test
+https://github.com/marmelab/gremlins.js
 https://marmelab.com/gremlins.js/
+
+## Load test
+https://github.com/grafana/k6
