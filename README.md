@@ -30,8 +30,8 @@ Run with the next lines:
 
 ## items-web
 The items-web package was built using React and Redux, Redux makes it possible to manage the states of the application in a simple way.
-
 ![alt text](https://github.com/ir-taimal10/front-end-challenge/blob/master/packages/items-doc/images/redux.PNG?raw=true)
+
 The project allows to query ML products using urls like the next:
 
  * http://localhost:3000/items/MLA1116890684
