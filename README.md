@@ -2,7 +2,7 @@
 
 ## How to install the project
 
-This is a mono-repository built with Lerna 
+To facilitate dependency management, this mono-repo uses Lerna to simplify dependency management.
 
 [https://lerna.js.org/](https://lerna.js.org/ "Lerna JS")
 
