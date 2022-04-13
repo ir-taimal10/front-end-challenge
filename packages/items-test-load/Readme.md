@@ -25,7 +25,7 @@ docker start docker-statsd-influxdb-grafana
 Cuando se trata de la primera ejecución es importante crear el data source en la url 
 http://localhost:3003/datasources en ese formulario de creación es importante seleccionar los siguientes campos:
 
-Name: Influx_db_pfm
+Name: Influx_db_challenge
 URL: http://localhost:8086
 DATABase:  K6DB
 
