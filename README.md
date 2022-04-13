@@ -55,7 +55,11 @@ To run the unit tests run:
 2. `npm run test`
 
 ## Behavior test
-https://github.com/cucumber/cucumber-js
+BDT tests allow testing of complete components using a DSL called Gherkin
+
+![alt text](https://github.com/ir-taimal10/front-end-challenge/blob/master/packages/items-doc/images/gherkin_test.JPG?raw=true)
+
+the definition of each of the steps was done using cucumber.js  [Cucumber](https://github.com/cucumber/cucumber-js "Cucumber's Homepage") 
 
 
 ## Random test
